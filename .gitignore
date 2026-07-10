@@ -1,0 +1,18 @@
+# vendored llama.cpp Metal build (re-download from llama.cpp releases)
+.llama/
+# Surya OCR cache lives under the image folder, but ignore any local copies
+.surya_ocr/
+# generated outputs
+*.pdf
+ocr_text/
+*_text/
+
+# generated output dirs / bytecode
+out/
+results/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Derived corpus export (regenerable via export_corpus.py; ~900 MB)
+_ocr_corpus/

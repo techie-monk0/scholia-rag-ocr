@@ -1,0 +1,15 @@
+# Core — run_ocr.py / ocr_one.py (parallel Surya OCR -> text + searchable PDF)
+# and the standalone lib/ocr_to_text.py / lib/ocr_to_pdf.py.
+surya-ocr>=0.20        # the OCR engine (pulls in torch); served via llama.cpp
+PyMuPDF>=1.24          # `fitz` — searchable-PDF assembly
+Pillow>=10             # `PIL` — image handling
+
+# Optional — lib/perfprofile.py (CPU/memory/GPU profiler). The module imports
+# and runs without it (stdlib fallback), but psutil gives accurate per-process
+# CPU% and richer memory/IO. GPU: ioreg (macOS, no sudo) needs nothing extra;
+# add `nvidia-ml-py` on NVIDIA hosts for accurate GPU util/mem/power.
+psutil>=5.9            # accurate CPU/memory sampling (optional but recommended)
+# nvidia-ml-py>=12     # NVIDIA GPU stats for perfprofile (non-macOS hosts)
+
+# Also required at runtime, not via pip: a Metal arm64 `llama-server` binary.
+# One is vendored under .llama/ and found automatically; see README "Install".

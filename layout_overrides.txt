@@ -1,0 +1,26 @@
+# Per-book OCR layout overrides — see lib/layout_overrides.py for the format.
+# Keys are catalogue edition ids (edition:ID) or absolute/relative book paths; a
+# matching book gets the directive, every other book uses the safe defaults (no
+# split, whole-page OCR). Format: <key> :: <directives>
+#
+# This file ships with example entries only — replace them with your own. The
+# directives below document every option the parser accepts.
+#
+# §1 Two-up scans — two book pages on one landscape sheet -> split into two pages.
+#    (Gutter auto-detection over-splits, so name the books that need it.)
+# edition:129  :: two-up
+# /path/to/some_landscape_scan.pdf :: two-up
+#
+# §2 Parity drop — skip alternate sides on image-only bilingual/facing-page books
+#    (drop-pages=even|odd). UNSAFE on books with a text layer: front/back matter on
+#    the verso side is often the target language, so a blanket parity skip can delete
+#    real content. Prefer the per-PAGE content gate for those. Use only for image-only
+#    books with no text layer.
+# edition:406  :: drop-pages=even
+#
+# §3 Two-column body text — usually leave UNTAGGED (whole-page OCR). Surya's VLM
+#    already reconstructs two-column reading order; column-strip re-OCR (columns=N)
+#    tends to give the same text but slightly worse — a narrower crop degrades OCR and
+#    a column-spanning running header gets misplaced. The multi-column needs_review
+#    flag catches genuinely scrambled pages. Re-enable per book only if one shows up:
+# edition:615  :: columns=2

@@ -1,0 +1,896 @@
+{
+ "1": {
+  "name": "page-0001",
+  "width": 1603,
+  "height": 2520,
+  "blocks": [
+   {
+    "text": "Kalachakra Tantra\n\nRITE OF INITIATION",
+    "bbox": [
+     73.738,
+     50.4,
+     1529.262,
+     355.32
+    ],
+    "label": "SectionHeader",
+    "confidence": 0.932608535436988,
+    "html": "<h1><i>Kalachakra Tantra</i></h1><h2>RITE OF INITIATION</h2>"
+   },
+   {
+    "text": "His Holiness the Dalai Lama",
+    "bbox": [
+     346.248,
+     476.28000000000003,
+     1261.5610000000001,
+     556.92
+    ],
+    "label": "Text",
+    "confidence": 0.932608535436988,
+    "html": "<p>His Holiness the Dalai Lama</p>"
+   },
+   {
+    "text": "Translated, edited and introduced by Jeffrey Hopkins",
+    "bbox": [
+     294.952,
+     592.1999999999999,
+     1320.8719999999998,
+     667.8000000000001
+    ],
+    "label": "Text",
+    "confidence": 0.932608535436988,
+    "html": "<p><i>Translated, edited and introduced by Jeffrey Hopkins</i></p>"
+   }
+  ]
+ },
+ "5": {
+  "name": "page-0005",
+  "width": 1648,
+  "height": 2525,
+  "blocks": [
+   {
+    "text": "Wisdom Publications",
+    "bbox": [
+     207.648,
+     151.5,
+     618.0,
+     196.95
+    ],
+    "label": "Text",
+    "confidence": 0.9805109827846592,
+    "html": "<p>Wisdom Publications</p>"
+   },
+   {
+    "text": "199 Elm Street, Somerville MA 02144 USA",
+    "bbox": [
+     207.648,
+     204.525,
+     1000.336,
+     252.5
+    ],
+    "label": "Text",
+    "confidence": 0.9805109827846592,
+    "html": "<p>199 Elm Street, Somerville MA 02144 USA</p>"
+   },
+   {
+    "text": "Enlarged edition with index, 1999",
+    "bbox": [
+     207.648,
+     310.575,
+     847.072,
+     358.54999999999995
+    ],
+    "label": "Text",
+    "confidence": 0.9805109827846592,
+    "html": "<p>Enlarged edition with index, 1999</p>"
+   },
+   {
+    "text": "Revised edition, 1989",
+    "bbox": [
+     207.648,
+     363.59999999999997,
+     616.352,
+     411.575
+    ],
+    "label": "Text",
+    "confidence": 0.9805109827846592,
+    "html": "<p>Revised edition, 1989</p>"
+   },
+   {
+    "text": "First published, 1985",
+    "bbox": [
+     207.648,
+     414.1,
+     608.112,
+     464.59999999999997
+    ],
+    "label": "Text",
+    "confidence": 0.9805109827846592,
+    "html": "<p>First published, 1985</p>"
+   },
+   {
+    "text": "© Jeffrey Hopkins 1985, 1999 except for the Commentary to the Initiation Rite, and the Guru Yoga of Kālachakra in Connection with the Six Sessions in Completely Facilitating Form,\n\n© Tenzin Gyatso, the Fourteenth Dalai Lama 1985, 1999",
+    "bbox": [
+     207.648,
+     517.625,
+     1372.7839999999999,
+     724.675
+    ],
+    "label": "Text",
+    "confidence": 0.9805109827846592,
+    "html": "<p>© Jeffrey Hopkins 1985, 1999 except for the Commentary to the Initiation Rite, and the Guru Yoga of Kālachakra in Connection with the Six Sessions in Completely Facilitating Form,<br/>© Tenzin Gyatso, the Fourteenth Dalai Lama 1985, 1999</p>"
+   },
+   {
+    "text": "All rights reserved.",
+    "bbox": [
+     207.648,
+     752.4499999999999,
+     576.8,
+     802.95
+    ],
+    "label": "Text",
+    "confidence": 0.9805109827846592,
+    "html": "<p>All rights reserved.</p>"
+   },
+   {
+    "text": "No part of this book may be reproduced in any form or by any means, electronic or mechanical, including photography, recording, or by any information storage and retrieval system or technologies now known or later developed, without permission in writing from the publisher.",
+    "bbox": [
+     207.648,
+     805.475,
+     1356.3039999999999,
+     969.6
+    ],
+    "label": "Text",
+    "confidence": 0.9805109827846592,
+    "html": "<p>No part of this book may be reproduced in any form or by any means, electronic or mechanical, including photography, recording, or by any information storage and retrieval system or technologies now known or later developed, without permission in writing from the publisher.</p>"
+   },
+   {
+    "text": "Library of Congress Cataloging in Publication Data",
+    "bbox": [
+     207.648,
+     1007.475,
+     1100.864,
+     1063.0249999999999
+    ],
+    "label": "SectionHeader",
+    "confidence": 0.9805109827846592,
+    "html": "<h3><i>Library of Congress Cataloging in Publication Data</i></h3>"
+   },
+   {
+    "text": "Bstan-'dzin-rgya-mtsho, Dalai Lama XIV, 1935—",
+    "bbox": [
+     207.648,
+     1083.225,
+     1011.872,
+     1131.2
+    ],
+    "label": "Text",
+    "confidence": 0.9805109827846592,
+    "html": "<p>Bstan-'dzin-rgya-mtsho, Dalai Lama XIV, 1935—</p>"
+   },
+   {
+    "text": "Kālachakra tantra : rite of initiation : for the stage of generation : a commentary on the text of Kay-drup-ge-lek-bel-sang-bo / by Tenzin Gyatso, the Fourteenth Dalai Lama, and the text itself ; edited translated and introduced by Jeffrey Hopkins. — New enl. ed.",
+    "bbox": [
+     234.016,
+     1128.675,
+     1285.44,
+     1355.9250000000002
+    ],
+    "label": "Text",
+    "confidence": 0.9805109827846592,
+    "html": "<p>Kālachakra tantra : rite of initiation : for the stage of generation : a commentary on the text of Kay-drup-ge-lek-bel-sang-bo / by Tenzin Gyatso, the Fourteenth Dalai Lama, and the text itself ; edited translated and introduced by Jeffrey Hopkins. — New enl. ed.</p>"
+   },
+   {
+    "text": "p. cm.",
+    "bbox": [
+     309.824,
+     1358.45,
+     469.67999999999995,
+     1401.3750000000002
+    ],
+    "label": "Text",
+    "confidence": 0.9805109827846592,
+    "html": "<p>p. cm.</p>"
+   },
+   {
+    "text": "Includes bibliographical references and index.",
+    "bbox": [
+     260.384,
+     1398.8500000000001,
+     1041.536,
+     1444.3
+    ],
+    "label": "Text",
+    "confidence": 0.9805109827846592,
+    "html": "<p>Includes bibliographical references and index.</p>"
+   },
+   {
+    "text": "ISBN 0-86171-151-3 (pbk. : alk. paper)",
+    "bbox": [
+     260.384,
+     1441.7749999999999,
+     901.456,
+     1489.75
+    ],
+    "label": "Text",
+    "confidence": 0.9805109827846592,
+    "html": "<p>ISBN 0-86171-151-3 (pbk. : alk. paper)</p>"
+   },
+   {
+    "text": "1. Kālachakra (Tantric rite)—China—Tibet. 2. Tripiṭaka.",
+    "bbox": [
+     260.384,
+     1487.225,
+     1170.08,
+     1532.675
+    ],
+    "label": "Text",
+    "confidence": 0.9805109827846592,
+    "html": "<p>1. Kālachakra (Tantric rite)—China—Tibet. 2. Tripiṭaka.</p>"
+   },
+   {
+    "text": "Sūtrapiṭaka. Tantra. Kālachakratantra—Criticism, interpretation, etc. I. Hopkins, Jeffrey. II. Mkhas-grub Dge-legs-dpal-bzan-po, 1385–1438. III. Tripiṭaka. Sūtrapiṭaka. Tantra. Kālachakratantra. English & Tibetan. IV. Title.",
+    "bbox": [
+     234.016,
+     1530.1499999999999,
+     1305.2160000000001,
+     1711.95
+    ],
+    "label": "Text",
+    "confidence": 0.9805109827846592,
+    "html": "<p>Sūtrapiṭaka. Tantra. Kālachakratantra—Criticism, interpretation, etc. I. Hopkins, Jeffrey. II. Mkhas-grub Dge-legs-dpal-bzan-po, 1385–1438. III. Tripiṭaka. Sūtrapiṭaka. Tantra. Kālachakratantra. English &amp; Tibetan. IV. Title.</p>"
+   },
+   {
+    "text": "BQ8921.K34B77 1999",
+    "bbox": [
+     234.016,
+     1711.95,
+     608.112,
+     1754.8749999999998
+    ],
+    "label": "Text",
+    "confidence": 0.9805109827846592,
+    "html": "<p>BQ8921.K34B77 1999</p>"
+   },
+   {
+    "text": "294.3'438—dc21",
+    "bbox": [
+     234.016,
+     1754.8749999999998,
+     514.176,
+     1800.3249999999998
+    ],
+    "label": "Text",
+    "confidence": 0.9805109827846592,
+    "html": "<p>294.3'438—dc21</p>"
+   },
+   {
+    "text": "99-18615",
+    "bbox": [
+     1044.832,
+     1800.3249999999998,
+     1207.984,
+     1840.725
+    ],
+    "label": "Text",
+    "confidence": 0.9805109827846592,
+    "html": "<p>99-18615</p>"
+   },
+   {
+    "text": "ISBN 0-86171-151-3",
+    "bbox": [
+     207.648,
+     1881.125,
+     548.784,
+     1924.05
+    ],
+    "label": "Text",
+    "confidence": 0.9805109827846592,
+    "html": "<p>ISBN 0-86171-151-3</p>"
+   },
+   {
+    "text": "04 03 02 01 00",
+    "bbox": [
+     207.648,
+     1939.2,
+     527.36,
+     1982.125
+    ],
+    "label": "Text",
+    "confidence": 0.9805109827846592,
+    "html": "<p>04 03 02 01 00</p>"
+   },
+   {
+    "text": "6 5 4 3",
+    "bbox": [
+     217.536,
+     1987.1750000000002,
+     453.20000000000005,
+     2030.1000000000001
+    ],
+    "label": "Text",
+    "confidence": 0.9805109827846592,
+    "html": "<p>6 5 4 3</p>"
+   },
+   {
+    "text": "Set in 10 on 12½ point Palatino by Character Graphics of Somerset, England and printed and bound by Eurasia Press of Singapore.",
+    "bbox": [
+     207.648,
+     2083.125,
+     1110.7520000000002,
+     2242.2
+    ],
+    "label": "Text",
+    "confidence": 0.9805109827846592,
+    "html": "<p>Set in 10 on 12½ point Palatino by Character Graphics of Somerset, England and printed and bound by Eurasia Press of Singapore.</p>"
+   }
+  ]
+ },
+ "6": {
+  "name": "page-0006",
+  "width": 1574,
+  "height": 2516,
+  "blocks": [
+   {
+    "text": "Contents",
+    "bbox": [
+     310.07800000000003,
+     701.964,
+     612.2860000000001,
+     774.928
+    ],
+    "label": "SectionHeader",
+    "confidence": 0.9808518368789028,
+    "html": "<h1>Contents</h1>"
+   },
+   {
+    "text": "Preface 7\n\nTechnical Note 9",
+    "bbox": [
+     310.07800000000003,
+     895.6959999999999,
+     713.022,
+     996.336
+    ],
+    "label": "TableOfContents",
+    "confidence": 0.9808518368789028,
+    "html": "<p>Preface 7<br/>Technical Note 9</p>"
+   },
+   {
+    "text": "INTRODUCTION BY JEFFREY HOPKINS",
+    "bbox": [
+     310.07800000000003,
+     1024.012,
+     1111.244,
+     1076.848
+    ],
+    "label": "SectionHeader",
+    "confidence": 0.9808518368789028,
+    "html": "<h2>INTRODUCTION BY JEFFREY HOPKINS</h2>"
+   },
+   {
+    "text": "1Altruistic Purification13\n\n2Deity Yoga: The Special Tantric Technique23\n\n3Motivation: The Thirty-Seven Practices39\n\n4Emptiness Yoga48\n\n5History of the Kālachakra Tantra59\n\n6Initiations and Mandalas66\n\n7Procedure of the Enhancement92\n\n8Procedure of the Initiations101\n\n9The Texts131\n\n10The Author of the Mandala Rite139\n\n11The Author of the Commentary146",
+    "bbox": [
+     223.50799999999998,
+     1079.364,
+     1237.164,
+     1660.5600000000002
+    ],
+    "label": "TableOfContents",
+    "confidence": 0.9808518368789028,
+    "html": "<table><tr><td>1</td><td>Altruistic Purification</td><td>13</td></tr><tr><td>2</td><td>Deity Yoga: The Special Tantric Technique</td><td>23</td></tr><tr><td>3</td><td>Motivation: The Thirty-Seven Practices</td><td>39</td></tr><tr><td>4</td><td>Emptiness Yoga</td><td>48</td></tr><tr><td>5</td><td>History of the Kālachakra Tantra</td><td>59</td></tr><tr><td>6</td><td>Initiations and Mandalas</td><td>66</td></tr><tr><td>7</td><td>Procedure of the Enhancement</td><td>92</td></tr><tr><td>8</td><td>Procedure of the Initiations</td><td>101</td></tr><tr><td>9</td><td>The Texts</td><td>131</td></tr><tr><td>10</td><td>The Author of the Mandala Rite</td><td>139</td></tr><tr><td>11</td><td>The Author of the Commentary</td><td>146</td></tr></table>"
+   },
+   {
+    "text": "THE DALAI LAMA'S COMMENTARY ON THE\n\nKĀLACHAKRA INITIATION RITE: STAGE\n\nOF GENERATION",
+    "bbox": [
+     310.07800000000003,
+     1685.72,
+     1230.868,
+     1836.68
+    ],
+    "label": "SectionHeader",
+    "confidence": 0.9808518368789028,
+    "html": "<h2>THE DALAI LAMA'S COMMENTARY ON THE<br/>KĀLACHAKRA INITIATION RITE: STAGE<br/>OF GENERATION</h2>"
+   },
+   {
+    "text": "Part One: Enhancing the Students",
+    "bbox": [
+     310.07800000000003,
+     1839.196,
+     927.0859999999999,
+     1892.032
+    ],
+    "label": "SectionHeader",
+    "confidence": 0.9808518368789028,
+    "html": "<h3><i>Part One: Enhancing the Students</i></h3>"
+   },
+   {
+    "text": "Background 161",
+    "bbox": [
+     310.07800000000003,
+     1892.032,
+     697.282,
+     1944.868
+    ],
+    "label": "SectionHeader",
+    "confidence": 0.9808518368789028,
+    "html": "<h3>Background 161</h3>"
+   },
+   {
+    "text": "1Motivation and Internal Initiation169\n\n2Supplication and Faith177\n\n3Vows and Blessing184\n\n4Tooth-Stick, Water, Kusha Grass, and Thread190\n\n5Six Lineages and Vajrasattva194\n\n6Enthusiasm and Dreams196",
+    "bbox": [
+     239.248,
+     1944.868,
+     1322.1599999999999,
+     2254.3360000000002
+    ],
+    "label": "TableOfContents",
+    "confidence": 0.9808518368789028,
+    "html": "<table><tr><td>1</td><td>Motivation and Internal Initiation</td><td>169</td></tr><tr><td>2</td><td>Supplication and Faith</td><td>177</td></tr><tr><td>3</td><td>Vows and Blessing</td><td>184</td></tr><tr><td>4</td><td>Tooth-Stick, Water, Kusha Grass, and Thread</td><td>190</td></tr><tr><td>5</td><td>Six Lineages and Vajrasattva</td><td>194</td></tr><tr><td>6</td><td>Enthusiasm and Dreams</td><td>196</td></tr></table>"
+   }
+  ]
+ },
+ "14": {
+  "name": "page-0014",
+  "width": 1545,
+  "height": 2521,
+  "blocks": [
+   {
+    "text": "14 The Kālachakra Tantra: Introduction by Jeffrey Hopkins",
+    "bbox": [
+     211.66500000000002,
+     141.17600000000002,
+     1299.345,
+     196.638
+    ],
+    "label": "PageHeader",
+    "confidence": 0.9916425051654096,
+    "html": "14 <i>The Kālachakra Tantra: Introduction by Jeffrey Hopkins</i>"
+   },
+   {
+    "text": "side as it is within meditation. This is called bodhichitta, literally “mind of enlightenment” but more like “mind toward enlightenment”, “mind directed toward enlightenment”. As Maitreya’s Ornament for Clear Realization (mngon rtogs rgyan, abhisamayālamkāra) says:[^5]",
+    "bbox": [
+     205.485,
+     234.453,
+     1373.505,
+     499.158
+    ],
+    "label": "Text",
+    "confidence": 0.9916425051654096,
+    "html": "<p>side as it is within meditation. This is called <i>bodhichitta</i>, literally “mind of enlightenment” but more like “mind toward enlightenment”, “mind directed toward enlightenment”. As Maitreya’s <i>Ornament for Clear Realization</i> (<i>mngon rtogs rgyan, abhisamayālamkāra</i>) says:<sup>5</sup></p>"
+   },
+   {
+    "text": "Mind generation is asserted as a wish for complete Perfect enlightenment for the sake of others.",
+    "bbox": [
+     307.45500000000004,
+     521.847,
+     1257.6299999999999,
+     627.729
+    ],
+    "label": "Text",
+    "confidence": 0.9916425051654096,
+    "html": "<p>Mind generation is asserted as a wish for complete Perfect enlightenment for the sake of others.</p>"
+   },
+   {
+    "text": "This has been formulated into a definition of bodhichitta or, as I translate it, “altruistic intention to become enlightened”:",
+    "bbox": [
+     205.485,
+     652.939,
+     1373.505,
+     758.821
+    ],
+    "label": "Text",
+    "confidence": 0.9916425051654096,
+    "html": "<p>This has been formulated into a definition of <i>bodhichitta</i> or, as I translate it, “altruistic intention to become enlightened”:</p>"
+   },
+   {
+    "text": "a main mental consciousness induced by an aspiration for [bringing about] others’ welfare and accompanied by an aspiration to one’s enlightenment.[^6]",
+    "bbox": [
+     307.45500000000004,
+     784.031,
+     1271.5349999999999,
+     988.2320000000001
+    ],
+    "label": "Text",
+    "confidence": 0.9916425051654096,
+    "html": "<p>a main mental consciousness induced by an aspiration for [bringing about] others’ welfare and accompanied by an aspiration to one’s enlightenment.<sup>6</sup></p>"
+   },
+   {
+    "text": "It is an attitude endowed with two aspirations, the first for others’ welfare and the second for one’s own highest enlightenment as a Buddha, the latter being seen as a means for accomplishing the first. Even though one’s own enlightenment must be accomplished first in order to bring about others’ welfare, service to others is prime in terms of motivation.",
+    "bbox": [
+     205.485,
+     1018.484,
+     1373.505,
+     1381.508
+    ],
+    "label": "Text",
+    "confidence": 0.9916425051654096,
+    "html": "<p>It is an attitude endowed with two aspirations, the first for others’ welfare and the second for one’s own highest enlightenment as a Buddha, the latter being seen as a means for accomplishing the first. Even though one’s own enlightenment must be accomplished first in order to bring about others’ welfare, service to others is prime in terms of motivation.</p>"
+   },
+   {
+    "text": "The enlightenment of a Buddha is seen as a means to bring about others’ welfare because a Buddha, being omniscient, knows all possible techniques for advancement and knows in detail the predispositions and interests of other beings. Between the two bodies of a Buddha, Truth Body and Form Body[^7] (the latter including the Complete Enjoyment Body and the Emanation Body), Bodhisattvas primarily seek Form Bodies, since it is through physical form that the welfare of others can be accomplished, this being mainly through teaching what is to be adopted in practice and what is to be discarded in behavior. Though Truth and Form Bodies necessarily accompany each other and thus are achieved together, the Bodhisattvas’ emphasis is on achieving Form Bodies in order to appear in myriad forms suitable to the interests and dispositions of trainees and to teach them accordingly.",
+    "bbox": [
+     211.66500000000002,
+     1391.592,
+     1384.32,
+     2175.623
+    ],
+    "label": "Text",
+    "confidence": 0.9916425051654096,
+    "html": "<p>The enlightenment of a Buddha is seen as a means to bring about others’ welfare because a Buddha, being omniscient, knows all possible techniques for advancement and knows in detail the predispositions and interests of other beings. Between the two bodies of a Buddha, Truth Body and Form Body<sup>7</sup> (the latter including the Complete Enjoyment Body and the Emanation Body), Bodhisattvas primarily seek Form Bodies, since it is through physical form that the welfare of others can be accomplished, this being mainly through teaching what is to be adopted in practice and what is to be discarded in behavior. Though Truth and Form Bodies necessarily accompany each other and thus are achieved together, the Bodhisattvas’ emphasis is on achieving Form Bodies in order to appear in myriad forms suitable to the interests and dispositions of trainees and to teach them accordingly.</p>"
+   },
+   {
+    "text": "Some Bodhisattvas’ motivation is described as like that of a king, for they see themselves as first becoming enlightened",
+    "bbox": [
+     211.66500000000002,
+     2173.102,
+     1379.685,
+     2278.984
+    ],
+    "label": "Text",
+    "confidence": 0.9916425051654096,
+    "html": "<p>Some Bodhisattvas’ motivation is described as like that of a king, for they see themselves as first becoming enlightened</p>"
+   }
+  ]
+ },
+ "42": {
+  "name": "page-0042",
+  "width": 1539,
+  "height": 2529,
+  "blocks": [
+   {
+    "text": "42 The Kālachakra Tantra: Introduction by Jeffrey Hopkins",
+    "bbox": [
+     180.06300000000002,
+     154.269,
+     1272.753,
+     207.37800000000001
+    ],
+    "label": "SectionHeader",
+    "confidence": 0.9948411396211765,
+    "html": "<h2>42 <i>The Kālachakra Tantra: Introduction by Jeffrey Hopkins</i></h2>"
+   },
+   {
+    "text": "That, like fire, has burning hatred for the class of enemies,\n\nAnd that has the darkness of obscuration forgetting to\n\nadopt and discard.",
+    "bbox": [
+     249.318,
+     250.371,
+     1358.937,
+     409.69800000000004
+    ],
+    "label": "Text",
+    "confidence": 0.9948411396211765,
+    "html": "<p>That, like fire, has burning hatred for the class of enemies,<br/>And that has the darkness of obscuration forgetting to<br/>adopt and discard.</p>"
+   },
+   {
+    "text": "3 It is a practice of Bodhisattvas to resort to isolation –\n\nThrough abandoning bad objects the afflictive emotions\n\ngradually diminish,\n\nThrough the absence of distraction application to virtue\n\nnaturally increases,\n\nThrough clarity of mind ascertainment of doctrine is\n\ngenerated.\n\n4 It is a practice of Bodhisattvas to renounce this life –\n\nClose friends who companied together for a long time\n\nseparate,\n\nThe wealth and articles achieved with striving are left\n\nbehind,\n\nAnd the guest-house of the body is left by the guest of\n\nconsciousness.\n\n5 It is a practice of Bodhisattvas to abandon bad friends\n\nWho, when accompanied, increase the three poisons [of\n\ndesire, hatred, and ignorance],\n\nCause the activities of hearing, thinking, and meditating\n\nto deteriorate,\n\nAnd make love and compassion non-existent.\n\n6 It is a practice of Bodhisattvas to hold more dearly\n\nThan their own body the excellent spiritual guide\n\nWho when relied upon causes faults to be removed\n\nAnd good qualities to increase like a waxing moon.\n\n7 Who could be protected by a worldly deity\n\nHimself also bound in the prison of cyclic existence?\n\nTherefore, it is a practice of Bodhisattvas to go for refuge\n\nTo the Three Jewels which are undeceiving when refuge is\n\nsought.\n\n8 The Subduer said that the sufferings of bad transmigrations\n\nVery difficult to bear are the fruits of ill-deeds.\n\nTherefore, it is a practice of Bodhisattvas never to do\n\nIll-deeds though it comes down to their life.",
+    "bbox": [
+     204.687,
+     434.98799999999994,
+     1363.554,
+     2316.5640000000003
+    ],
+    "label": "ListGroup",
+    "confidence": 0.9948411396211765,
+    "html": "<ol style=\"list-style-type: none;\"><li>3 It is a practice of Bodhisattvas to resort to isolation –<br/>Through abandoning bad objects the afflictive emotions<br/>gradually diminish,<br/>Through the absence of distraction application to virtue<br/>naturally increases,<br/>Through clarity of mind ascertainment of doctrine is<br/>generated.</li><li>4 It is a practice of Bodhisattvas to renounce this life –<br/>Close friends who companied together for a long time<br/>separate,<br/>The wealth and articles achieved with striving are left<br/>behind,<br/>And the guest-house of the body is left by the guest of<br/>consciousness.</li><li>5 It is a practice of Bodhisattvas to abandon bad friends<br/>Who, when accompanied, increase the three poisons [of<br/>desire, hatred, and ignorance],<br/>Cause the activities of hearing, thinking, and meditating<br/>to deteriorate,<br/>And make love and compassion non-existent.</li><li>6 It is a practice of Bodhisattvas to hold more dearly<br/>Than their own body the excellent spiritual guide<br/>Who when relied upon causes faults to be removed<br/>And good qualities to increase like a waxing moon.</li><li>7 Who could be protected by a worldly deity<br/>Himself also bound in the prison of cyclic existence?<br/>Therefore, it is a practice of Bodhisattvas to go for refuge<br/>To the Three Jewels which are undeceiving when refuge is<br/>sought.</li><li>8 The Subduer said that the sufferings of bad transmigrations<br/>Very difficult to bear are the fruits of ill-deeds.<br/>Therefore, it is a practice of Bodhisattvas never to do<br/>Ill-deeds though it comes down to their life.</li></ol>"
+   }
+  ]
+ },
+ "152": {
+  "name": "page-0152",
+  "width": 1505,
+  "height": 2528,
+  "blocks": [
+   {
+    "text": "134 The Kālachakra Tantra: Introduction by Jeffrey Hopkins",
+    "bbox": [
+     177.59,
+     154.208,
+     1288.28,
+     209.824
+    ],
+    "label": "PageHeader",
+    "confidence": 0.9785909357055039,
+    "html": "<p>134 <i>The Kālachakra Tantra: Introduction by Jeffrey Hopkins</i></p>"
+   },
+   {
+    "text": "1. Entering blindfolded, Kay 317.7",
+    "bbox": [
+     231.77,
+     247.744,
+     896.9799999999999,
+     298.304
+    ],
+    "label": "SectionHeader",
+    "confidence": 0.9785909357055039,
+    "html": "<p>1. Entering blindfolded, Kay 317.7</p>"
+   },
+   {
+    "text": "a. Entering outside the curtain, Kay 318.1/Bu 206.6",
+    "bbox": [
+     284.445,
+     300.832,
+     1243.1299999999999,
+     353.92
+    ],
+    "label": "Text",
+    "confidence": 0.9785909357055039,
+    "html": "<p>a. Entering outside the curtain, Kay 318.1/Bu 206.6</p>"
+   },
+   {
+    "text": "b. Entering inside, Kay 320.4/Bu 210.2",
+    "bbox": [
+     284.445,
+     353.92,
+     1011.36,
+     404.48
+    ],
+    "label": "Text",
+    "confidence": 0.9785909357055039,
+    "html": "<p>b. Entering inside, Kay 320.4/Bu 210.2</p>"
+   },
+   {
+    "text": "1) Entering inside and paying obeisance while circling it, Kay 320.4/Bu 210.3",
+    "bbox": [
+     329.595,
+     404.48,
+     1324.4,
+     510.656
+    ],
+    "label": "Text",
+    "confidence": 0.9785909357055039,
+    "html": "<p>1) Entering inside and paying obeisance while circling it, Kay 320.4/Bu 210.3</p>"
+   },
+   {
+    "text": "2) Setting [the student] in the pledges, Kay 322.5/Bu 210.7",
+    "bbox": [
+     329.595,
+     510.656,
+     1352.9950000000001,
+     611.776
+    ],
+    "label": "Text",
+    "confidence": 0.9785909357055039,
+    "html": "<p>2) Setting [the student] in the pledges, Kay 322.5/Bu 210.7</p>"
+   },
+   {
+    "text": "3) Speaking the truth upon the descent of the wisdom being, Kay 323.5/Bu 211.6",
+    "bbox": [
+     329.595,
+     614.304,
+     1352.9950000000001,
+     717.9519999999999
+    ],
+    "label": "Text",
+    "confidence": 0.9785909357055039,
+    "html": "<p>3) Speaking the truth upon the descent of the wisdom being, Kay 323.5/Bu 211.6</p>"
+   },
+   {
+    "text": "2. Entering such that one comes to have the nature of seeing the mandala, Kay 325.5/Bu 213.4",
+    "bbox": [
+     231.77,
+     735.6479999999999,
+     1356.005,
+     839.296
+    ],
+    "label": "Text",
+    "confidence": 0.9785909357055039,
+    "html": "<p>2. Entering such that one comes to have the nature of seeing the mandala, Kay 325.5/Bu 213.4</p>"
+   },
+   {
+    "text": "B. Conferring initiation on one who has entered, Kay 326.6/Bu 214.4",
+    "bbox": [
+     180.6,
+     839.296,
+     1352.9950000000001,
+     942.944
+    ],
+    "label": "Text",
+    "confidence": 0.9785909357055039,
+    "html": "<p>B. Conferring initiation on one who has entered, Kay 326.6/Bu 214.4</p>"
+   },
+   {
+    "text": "1. Conferring the seven initiations in the manner of childhood, Kay 326.6/Bu 214.4",
+    "bbox": [
+     231.77,
+     983.392,
+     1345.47,
+     1084.512
+    ],
+    "label": "SectionHeader",
+    "confidence": 0.9785909357055039,
+    "html": "<p>1. Conferring the seven initiations in the manner of childhood, Kay 326.6/Bu 214.4</p>"
+   },
+   {
+    "text": "a. The rites of the seven initiations, Kay 326.6/Bu 214.4",
+    "bbox": [
+     279.93,
+     1084.512,
+     1307.845,
+     1137.6000000000001
+    ],
+    "label": "Text",
+    "confidence": 0.9785909357055039,
+    "html": "<p>a. The rites of the seven initiations, Kay 326.6/Bu 214.4</p>"
+   },
+   {
+    "text": "1) Making a supplication in common and purifying inauspiciousness, Kay 326.7/Bu 214.5",
+    "bbox": [
+     335.615,
+     1137.6000000000001,
+     1349.9850000000001,
+     1241.248
+    ],
+    "label": "Text",
+    "confidence": 0.9785909357055039,
+    "html": "<p>1) Making a supplication in common and purifying inauspiciousness, Kay 326.7/Bu 214.5</p>"
+   },
+   {
+    "text": "2) Bestowing the seven initiations individually, Kay 327.4/Bu 215.3",
+    "bbox": [
+     335.615,
+     1241.248,
+     1348.48,
+     1342.3680000000002
+    ],
+    "label": "Text",
+    "confidence": 0.9785909357055039,
+    "html": "<p>2) Bestowing the seven initiations individually, Kay 327.4/Bu 215.3</p>"
+   },
+   {
+    "text": "a) Water initiation, Kay 327.4/Bu 215.3",
+    "bbox": [
+     335.615,
+     1347.424,
+     1064.0349999999999,
+     1400.5120000000002
+    ],
+    "label": "Text",
+    "confidence": 0.9785909357055039,
+    "html": "<p>a) Water initiation, Kay 327.4/Bu 215.3</p>"
+   },
+   {
+    "text": "b) Crown initiation, Kay 332.2/Bu 217.6",
+    "bbox": [
+     335.615,
+     1400.5120000000002,
+     1082.095,
+     1451.072
+    ],
+    "label": "Text",
+    "confidence": 0.9785909357055039,
+    "html": "<p>b) Crown initiation, Kay 332.2/Bu 217.6</p>"
+   },
+   {
+    "text": "c) Silk ribbon initiation, Kay 333.7/Bu 218.4",
+    "bbox": [
+     335.615,
+     1451.072,
+     1152.83,
+     1504.1599999999999
+    ],
+    "label": "Text",
+    "confidence": 0.9785909357055039,
+    "html": "<p>c) Silk ribbon initiation, Kay 333.7/Bu 218.4</p>"
+   },
+   {
+    "text": "d) Vajra and bell initiation, Kay 336.1/Bu 219.3",
+    "bbox": [
+     335.615,
+     1504.1599999999999,
+     1210.02,
+     1557.248
+    ],
+    "label": "Text",
+    "confidence": 0.9785909357055039,
+    "html": "<p>d) Vajra and bell initiation, Kay 336.1/Bu 219.3</p>"
+   },
+   {
+    "text": "e) Conduct initiation, Kay 337.3/Bu 220.1",
+    "bbox": [
+     335.615,
+     1557.248,
+     1110.69,
+     1610.336
+    ],
+    "label": "Text",
+    "confidence": 0.9785909357055039,
+    "html": "<p>e) Conduct initiation, Kay 337.3/Bu 220.1</p>"
+   },
+   {
+    "text": "f) Name initiation, Kay 339.4/Bu 220.6",
+    "bbox": [
+     335.615,
+     1610.336,
+     1058.0149999999999,
+     1660.8960000000002
+    ],
+    "label": "Text",
+    "confidence": 0.9785909357055039,
+    "html": "<p>f) Name initiation, Kay 339.4/Bu 220.6</p>"
+   },
+   {
+    "text": "g) Permission initiation, Kay 341.7/Bu 221.7",
+    "bbox": [
+     335.615,
+     1660.8960000000002,
+     1161.8600000000001,
+     1716.5120000000002
+    ],
+    "label": "Text",
+    "confidence": 0.9785909357055039,
+    "html": "<p>g) Permission initiation, Kay 341.7/Bu 221.7</p>"
+   },
+   {
+    "text": "1* Actual permission initiation, Kay 342.1/Bu 221.7",
+    "bbox": [
+     379.26,
+     1716.5120000000002,
+     1336.44,
+     1767.072
+    ],
+    "label": "Text",
+    "confidence": 0.9785909357055039,
+    "html": "<p>1* Actual permission initiation, Kay 342.1/Bu 221.7</p>"
+   },
+   {
+    "text": "2* Appendages, Kay 343.7/Bu 223.3",
+    "bbox": [
+     379.26,
+     1767.072,
+     1056.51,
+     1820.1599999999999
+    ],
+    "label": "Text",
+    "confidence": 0.9785909357055039,
+    "html": "<p>2* Appendages, Kay 343.7/Bu 223.3</p>"
+   },
+   {
+    "text": "a* Four branches appended – giving mantra and so forth, Kay 343.7/Bu 223.3",
+    "bbox": [
+     379.26,
+     1820.1599999999999,
+     1351.49,
+     1921.28
+    ],
+    "label": "Text",
+    "confidence": 0.9785909357055039,
+    "html": "<p>a* Four branches appended – giving mantra and so forth, Kay 343.7/Bu 223.3</p>"
+   },
+   {
+    "text": "b* Giving the master's initiation, the main appendage, Kay 345.3/Bu 225.1",
+    "bbox": [
+     379.26,
+     1921.28,
+     1349.9850000000001,
+     2027.4560000000001
+    ],
+    "label": "Text",
+    "confidence": 0.9785909357055039,
+    "html": "<p>b* Giving the master's initiation, the main appendage, Kay 345.3/Bu 225.1</p>"
+   },
+   {
+    "text": "b. Understanding the time of attainment, Kay 348.6/Bu 230.7",
+    "bbox": [
+     279.93,
+     2027.4560000000001,
+     1351.49,
+     2126.048
+    ],
+    "label": "Text",
+    "confidence": 0.9785909357055039,
+    "html": "<p>b. Understanding the time of attainment, Kay 348.6/Bu 230.7</p>"
+   },
+   {
+    "text": "c. Advice to abandon root infractions, Kay 349.2/Bu 231.4",
+    "bbox": [
+     279.93,
+     2126.048,
+     1351.49,
+     2229.696
+    ],
+    "label": "Text",
+    "confidence": 0.9785909357055039,
+    "html": "<p>c. Advice to abandon root infractions, Kay 349.2/Bu 231.4</p>"
+   }
+  ]
+ }
+}
