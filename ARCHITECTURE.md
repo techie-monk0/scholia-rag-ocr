@@ -14,6 +14,46 @@ Both end up as the same `doc.json`, so a consumer treats them identically. How a
 consumer *reads* `doc.json` is a separate guide, **`USING_THE_OUTPUT.md`**; this
 document is the *design* — what goes in the format and how the structure is recovered.
 
+## Why this shape — the failure mode it's built around
+
+Structure is one of the two things this pipeline protects; **text fidelity** is the
+other, and it drives the choice of tools as much as the structure work does. For
+scholarly Buddhist texts the dangerous OCR failure is **not** visible garbage — you can
+see that and re-run it. It is **silent, systematic loss of diacritics**:
+`Śāntideva → Santideva`, `Nāgārjuna → Nagarjuna`, `dharmakāya → dharmakaya`. The
+stripped word still looks like a plausible word, so it survives a spellcheck/dictionary
+pass and reads as authoritative — while it quietly poisons everything downstream that
+depends on the exact string: author/title matching, citation and terminology extraction,
+cross-reference resolution, and search. And a **confidently-wrong** character is worse
+than a missing one: a dropped mark folds away harmlessly in a diacritic-folded search
+index and can be recovered by re-OCR, but a wrong mark does not fold, survives
+validation, and — once the scan is the only surviving copy — becomes permanent.
+
+That single fact is why the pipeline is shaped the way it is:
+
+- **Preserve, never "clean."** IAST diacritics and Wylie transliteration are carried
+  through verbatim — NFC-normalized, never stripped, never "autocorrected" into
+  English-looking words (`bsgrubs` and `rnam par shes pa` are not typos; a language
+  prior that helps ordinary English *hurts* here). This is the reason for the strict
+  normalization spec below and for choosing an engine tuned for Latin+IAST fidelity.
+- **Judge OCR on diacritic *survival*, not dictionary hit-rate.** A page can score
+  "clean" on a dictionary check while every diacritic is wrong, so a dictionary score is
+  the wrong yardstick — the right question is whether `ā ī ū ṛ ṃ ḥ ṅ ñ ṭ ḍ ṇ ś ṣ`
+  actually survived.
+- **Flag, don't silently substitute.** Per-block `confidence` + `needs_review` (item 7
+  below) exist so a doubtful region is surfaced for review rather than quietly
+  "corrected" into a confident error.
+- **Keep the scan image so the choice stays reversible.** The searchable PDF retains the
+  page bitmap, so any page can be re-OCR'd by a better/higher-recall engine later — the
+  transcription is never the only copy. This is the cheap insurance that makes the engine
+  decision reversible.
+
+Automated escalation on top of this — a per-page router that detects diacritic-dense
+pages and sends only those to a higher-recall (e.g. cloud) engine, plus a
+valid-IAST-only post-filter to catch an engine's spurious non-IAST marks — is a
+deliberate **extension point**, not part of this local-only repo. The retained-image
+insurance is what keeps it addable after the fact.
+
 ## Guiding principle — recover and label, don't flatten
 
 The goal is **not "clean text."** It is **structure-preserving, labeled output.** The

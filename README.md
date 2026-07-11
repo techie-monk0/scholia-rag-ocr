@@ -23,6 +23,20 @@ mis-attributes. This pipeline keeps the structure citations depend on:
 - **Clean embedding corpus** — running heads, page numbers, and TOCs dropped; body text in reading order across columns.
 - **Scholarly-multilingual** — IAST, Tibetan, Devanagari, verse line breaks, and canonical references survive verbatim.
 
+### Why diacritics drive the design
+
+The real OCR failure here isn't visible garbage — it's *silent* diacritic loss
+(`Nāgārjuna → Nagarjuna`): the stripped word still looks plausible, passes a spellcheck,
+and quietly breaks author/title matching, citation extraction, and search. A
+**confidently-wrong** mark is worse than a missing one — it doesn't fold away in a
+diacritic-folded index and it survives validation, so once the scan is the only copy it's
+permanent. That failure mode is why the pipeline (a) preserves IAST/Wylie **verbatim**
+(NFC, never stripped, never "autocorrected"), (b) **flags** doubtful regions with
+per-block `confidence` / `needs_review` instead of silently substituting, and (c) **keeps
+the scan image** in the PDF so any page can be re-OCR'd by a better engine later — the
+transcription is never the only copy. The right way to judge this OCR is diacritic
+*survival*, not dictionary hit-rate.
+
 Details: [`ARCHITECTURE.md`](ARCHITECTURE.md) (the contract) · [`USING_THE_OUTPUT.md`](USING_THE_OUTPUT.md) (reading it).
 
 ## Self-contained
