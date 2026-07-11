@@ -1,0 +1,20 @@
+# pubsplit public-tree guard — a fail-closed backstop that runs on GitHub itself,
+# covering the window where a fresh clone's LOCAL pre-push hook isn't installed yet.
+#
+# Path-only by design: it fails if any private/secret path (or a REMOVE_-prefixed
+# to-be-deleted file) reaches the public tree. It deliberately does NOT grep file
+# CONTENT for personal strings — that would require publishing your personal patterns
+# here. Content is guarded locally by the pre-push hook (which reads them privately).
+name: public-guard
+on: [push, pull_request]
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: No private / secret / REMOVE_ paths in the public tree
+        run: |
+          if git ls-files | grep -iE '^private/|(^|/)REMOVE_|(^|/)HOW_TO_RELEASE\.md$|(^|/)\.env$|\.key$|\.pem$'; then
+            echo "::error::a private/secret/REMOVE_ path is present in the public tree"; exit 1
+          fi
+          echo "public tree clean"
