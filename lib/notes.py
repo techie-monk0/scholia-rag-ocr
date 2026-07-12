@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Phase 2 — footnote / endnote resolution (ARCHITECTURE.md §Footnotes).
+"""Phase 2 — footnote / endnote resolution (docs/ARCHITECTURE.md §Footnotes).
 
 The unified note engine: detect note bodies (page-bottom footnotes via a
 raster *rule* + geometry, since Surya's `Footnote` label is unreliable — it was

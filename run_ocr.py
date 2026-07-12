@@ -1174,9 +1174,9 @@ Per book, under {root}/<name>/:
   {root}/ingest_manifest.jsonl   one JSON row per book (paths + schema_version + features)
 
 To consume the output:
-  - USING_THE_OUTPUT.md  how to read doc.json — type policy, structure-aware chunking,
+  - docs/INTEGRATIONS.md   how to read doc.json — type policy, structure-aware chunking,
                       embedding, citation. Use lib/docjson.py; don't hand-parse.
-  - ARCHITECTURE.md   the doc.json contract + RAG handoff — native (digital-first) vs
+  - docs/ARCHITECTURE.md   the doc.json contract + RAG handoff — native (digital-first) vs
                       scanned, the dedup rule, and the deduplicated rag_handoff_manifest.jsonl.
 """, flush=True)
     if not all(results.values()):

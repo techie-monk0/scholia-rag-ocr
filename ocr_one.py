@@ -884,7 +884,7 @@ def main():
     g_txt.add_argument("--doc", action=argparse.BooleanOptionalAction, default=True,
                        help="Also emit <name>.doc.json — the structure-preserving "
                             "RAG contract (blocks in reading order, typed/labeled, "
-                            "unicode-normalized; see ARCHITECTURE.md). "
+                            "unicode-normalized; see docs/ARCHITECTURE.md). "
                             "--no-doc skips it.")
     g_txt.add_argument("--title", default=None,
                        help="Book title recorded in doc.json (else null).")

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Unicode normalization for emitted block text (ARCHITECTURE.md §"Unicode
+"""Unicode normalization for emitted block text (docs/ARCHITECTURE.md §"Unicode
 normalization spec"). Must match the RAG digital-first (Docling) path exactly.
 
 Principle: normalize invisible / typographic NOISE; preserve meaning-bearing

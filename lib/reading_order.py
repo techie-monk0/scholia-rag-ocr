@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Phase 3 — cross-column reading-order reconstruction (ARCHITECTURE.md #1).
+"""Phase 3 — cross-column reading-order reconstruction (docs/ARCHITECTURE.md #1).
 
 Scrambled text is fatal for chunking: a multi-column page read in the wrong
 order yields incoherent chunks. We reorder a page's blocks into reading order

@@ -11,7 +11,7 @@ Two kinds of book feed into the same format:
 - **digital-first** books, whose text is pulled straight from the PDF's own text layer.
 
 Both end up as the same `doc.json`, so a consumer treats them identically. How a
-consumer *reads* `doc.json` is a separate guide, **`USING_THE_OUTPUT.md`**; this
+consumer *reads* `doc.json` is a separate guide, **`INTEGRATIONS.md`**; this
 document is the *design* — what goes in the format and how the structure is recovered.
 
 ## Why this shape — the failure mode it's built around
@@ -99,7 +99,7 @@ order, the richer labels, and the resolved footnotes.
 
 There is **no sidecar** — verse/quote, geometry, region, and all structure live inside
 `doc.json`. It carries a `schema_version` and a `features` list so consumers can evolve
-safely; changes are **additive-only** (see `USING_THE_OUTPUT.md`).
+safely; changes are **additive-only** (see `INTEGRATIONS.md`).
 
 ### Technical details — the `doc.json` schema
 
@@ -179,7 +179,7 @@ adjudicate.
 
 How a client reads the output — the additive/feature-gated guarantee, reading optional
 keys safely, treating `type` as an open vocabulary, and the reference reader
-`lib/docjson.py` — lives in **`USING_THE_OUTPUT.md`**. In short: there is no
+`lib/docjson.py` — lives in **`INTEGRATIONS.md`**. In short: there is no
 `.verses.json` sidecar, changes are additive-only, and clients should use or vendor
 `lib/docjson.py` rather than hand-rolling defensive parsing.
 
@@ -397,7 +397,7 @@ entry at its column's left margin isn't falsely flagged.
 The producer principle is **label, never delete**: the OCR stage emits everything with a
 `type` and discards nothing — the *consumer* decides what reaches the embedding corpus.
 The per-type drop/exclude/keep policy and what each downstream phase (chunking,
-embedding, reranking) consumes are consumer concerns and live in **`USING_THE_OUTPUT.md`**
+embedding, reranking) consumes are consumer concerns and live in **`INTEGRATIONS.md`**
 (§"Type policy" and §"What each downstream phase uses").
 
 ## Regression fixtures — real pages that caught these bugs

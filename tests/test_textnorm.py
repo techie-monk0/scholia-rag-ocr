@@ -1,4 +1,4 @@
-"""Phase 1 — unicode normalization spec (ARCHITECTURE.md §Unicode)."""
+"""Phase 1 — unicode normalization spec (docs/ARCHITECTURE.md §Unicode)."""
 import unicodedata
 
 from textnorm import normalize_block_text as N

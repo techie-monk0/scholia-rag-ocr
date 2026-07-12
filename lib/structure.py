@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Structure-analysis layer for the doc.json contract (ARCHITECTURE.md).
+"""Structure-analysis layer for the doc.json contract (docs/ARCHITECTURE.md).
 
 Computes per-block structure attributes and merges them ADDITIVELY into doc.json,
 with a doc-level ``schema_version`` + ``features`` list so consumers are forward-

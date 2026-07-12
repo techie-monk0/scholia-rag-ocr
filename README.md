@@ -37,7 +37,7 @@ the scan image** in the PDF so any page can be re-OCR'd by a better engine later
 transcription is never the only copy. The right way to judge this OCR is diacritic
 *survival*, not dictionary hit-rate.
 
-Details: [`ARCHITECTURE.md`](ARCHITECTURE.md) (the contract) · [`USING_THE_OUTPUT.md`](USING_THE_OUTPUT.md) (reading it).
+Details: [`ARCHITECTURE.md`](docs/ARCHITECTURE.md) (the contract) · [`INTEGRATIONS.md`](docs/INTEGRATIONS.md) (reading it).
 
 ## Self-contained
 
@@ -372,12 +372,12 @@ chunking/embedding. Two scripts package it for a consumer:
   into a portable, self-contained `_ocr_corpus/` with relative paths.
 
 The `doc.json` contract and the RAG-handoff architecture are described in
-`ARCHITECTURE.md`; how a consumer *reads* `doc.json` (type policy, the
-`lib/docjson.py` reference reader) is in `USING_THE_OUTPUT.md`.
+`docs/ARCHITECTURE.md`; how a consumer *reads* `doc.json` (type policy, the
+`lib/docjson.py` reference reader) is in `docs/INTEGRATIONS.md`.
 
 ## Known limitations & planned enhancements
 
-The structured `doc.json` path (see `ARCHITECTURE.md`) has two known gaps,
+The structured `doc.json` path (see `docs/ARCHITECTURE.md`) has two known gaps,
 both currently handled by **flagging `needs_review`** rather than fixing at the
 source:
 

@@ -3,7 +3,7 @@
 
 The producer (build_doc/structure) emits a forward-compatible doc.json:
 ``schema_version`` + a ``features`` list + additive optional keys, no sidecar
-(see ARCHITECTURE.md §"Consuming doc.json"). This module encapsulates the
+(see docs/ARCHITECTURE.md §"Consuming doc.json"). This module encapsulates the
 defensive-reading rules ONCE so clients (RAG ingestion/embedding) don't
 re-implement them and drift:
 

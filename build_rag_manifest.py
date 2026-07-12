@@ -6,7 +6,7 @@ digital-first (native-text) books under another. A digital-first book that was
 OCR'd before reclassification exists in BOTH — a degraded OCR copy and a clean
 native copy. This tool emits ONE authoritative row per book: the **native** copy
 wins over a scanned copy of the same edition, so the degraded duplicates are
-excluded. See ARCHITECTURE.md §"The RAG handoff" for how a consumer reads it.
+excluded. See docs/ARCHITECTURE.md §"The RAG handoff" for how a consumer reads it.
 
     python3 build_rag_manifest.py
         [--native out/detectonly] [--scanned out/backfill]

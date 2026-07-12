@@ -1,4 +1,4 @@
-"""Regression fixtures from ARCHITECTURE.md §"Regression fixtures" — real
+"""Regression fixtures from docs/ARCHITECTURE.md §"Regression fixtures" — real
 pages from a re-OCR'd scholarly book (fixture set `e10`) that the RAG-side detector
 mis-handled. Block geometry is committed in fixtures/regression_pages/e10_pages.json.
 Assertions are added phase by phase; the p42 verse positive-control runs from the

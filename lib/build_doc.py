@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Phase 1 of the structure-preserving contract (ARCHITECTURE.md): turn the
+"""Phase 1 of the structure-preserving contract (docs/ARCHITECTURE.md): turn the
 normalized ``Page``/``Block`` model into a single ``<book>.doc.json`` per book.
 
 This phase delivers: the type taxonomy, heading levels, furniture / navigation

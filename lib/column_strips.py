@@ -1,5 +1,5 @@
 """Column-strip re-OCR — the source fix for the multi-column reading-order
-scramble (ARCHITECTURE.md, reading order).
+scramble (docs/ARCHITECTURE.md, reading order).
 
 A two-column page OCR'd whole comes back with the columns interleaved (or merged
 into one block), which is fatal for chunking. Instead we crop each page into its

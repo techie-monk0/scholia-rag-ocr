@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verse / block-quote detection from block geometry (ARCHITECTURE.md
+"""Verse / block-quote detection from block geometry (docs/ARCHITECTURE.md
 §"Verses & block quotations").
 
 Verses (root verses, kārikās, dohās) and block quotations are distinct content
